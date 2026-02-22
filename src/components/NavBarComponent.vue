@@ -41,6 +41,8 @@
 
 .d-flex{
 padding-right: 100px;
+padding-bottom: 20px;
+padding-top: 20px;
 
 }
 </style>

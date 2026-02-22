@@ -1,21 +1,16 @@
 <template>
-    
-    <div class="modal-backdrop-custom">
+  <PizzaCardComponent :pizza="pizza" :esModal="true" />
+
+  <div class="modal-backdrop-custom">
     <div class="modal-container bg-white rounded shadow p-4">
-   
       <div class="text-end">
-        <button 
-          class="btn-close"
-              @click="cerrarModal"
-        ></button>
+        <button class="btn-close" 
+        @click="cerrarModal"></button>
       </div>
-        <PizzaCardComponent 
-        :pizza="pizza"
-        :esModal="true"
-      />
+
     </div>
   </div>
-      
+
 </template>
 
 <script setup>
@@ -24,12 +19,12 @@ import { defineProps, defineEmits } from "vue"
 import PizzaCardComponent from './PizzaCardComponent.vue'
 const props = defineProps({
   pizza: {
-    type:Object,
+    type: Object,
     required: true
-
   }
-  
+
 })
+
 const emit = defineEmits(['cerrar'])
 const cerrarModal = () => {
   emit('cerrar')
@@ -37,6 +32,4 @@ const cerrarModal = () => {
 
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

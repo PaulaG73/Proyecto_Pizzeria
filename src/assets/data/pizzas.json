@@ -5,7 +5,7 @@
     "img": "/imagenes/napolitana.jpg",
     "ingredients": ["mozzarella", "tomates", "jamón", "orégano"],
     "name": "napolitana",
-    "price": 5950
+    "price": "5-950"
   },
   {
     "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
@@ -13,7 +13,7 @@
     "img": "/imagenes/espanola.jpg",
     "ingredients": ["mozzarella", "tomates", "jamón", "choricillo"],
     "name": "española",
-    "price": 7250
+    "price": "7.250"
   },
   {
     "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
@@ -21,7 +21,7 @@
     "img": "/imagenes/salame.jpg",
     "ingredients": ["mozzarella", "tomates", "salame", "orégano"],
     "name": "salame",
-    "price": 5990
+    "price": "5.990"
   },
   {
     "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
@@ -29,7 +29,7 @@
     "img": "/imagenes/cuatro_estaciones.jpg",
     "ingredients": ["mozzarella", "salame", "aceitunas", "champiñones"],
     "name": "cuatro estaciones",
-    "price": 9590
+    "price": "9.590"
   },
   {
     "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
@@ -37,7 +37,7 @@
     "img": "/imagenes/bacon.jpg",
     "ingredients": ["mozzarella", "tomates cherry", "bacon", "orégano"],
     "name": "bacon",
-    "price": 6450
+    "price": "6.450"
   },
   {
     "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
@@ -45,7 +45,7 @@
     "img": "/imagenes/pollo.jpg",
     "ingredients": ["mozzarella", "pimientos", "pollo grillé", "orégano"],
     "name": "pollo picante",
-    "price": 8500
+    "price": "8.500"
   },
   {
     "desc": "Una pizza clásica con un toque fresco y ligero, combinando ingredientes básicos y saludables, ideal para quienes buscan un sabor tradicional.",
@@ -58,7 +58,7 @@
       "aceite de oliva"
     ],
     "name": "margarita",
-    "price": 5700
+    "price": "5.700"
   },
   {
     "desc": "Un deleite para los amantes del marisco, esta pizza combina sabores intensos y únicos que recuerdan a la costa mediterránea.",
@@ -66,7 +66,7 @@
     "img": "/imagenes/marinera.jpg",
     "ingredients": ["mozzarella", "camarones", "calamares", "ajo"],
     "name": "marinera",
-    "price": 10500
+    "price": "10.500"
   },
   {
     "desc": "La mezcla perfecta entre lo dulce y lo salado, esta pizza ofrece un sabor sofisticado que sorprende a los paladares más exigentes.",
@@ -74,7 +74,7 @@
     "img": "/imagenes/hawaiana.jpg",
     "ingredients": ["mozzarella", "jamón", "piña", "orégano"],
     "name": "hawaiana",
-    "price": 6800
+    "price": "6.800"
   },
   {
     "desc": "Una opción ideal para quienes buscan una explosión de sabores picantes en cada bocado, perfecta para los más atrevidos.",
@@ -82,7 +82,7 @@
     "img": "/imagenes/diablo.jpg",
     "ingredients": ["mozzarella", "pepperoni", "jalapeños", "orégano"],
     "name": "diablo",
-    "price": 7200
+    "price": "7.200"
   },
   {
     "desc": "Una pizza gourmet que combina sabores intensos con texturas cremosas, diseñada para los amantes de los quesos.",
@@ -90,7 +90,7 @@
     "img": "/imagenes/cuatro_quesos.jpg",
     "ingredients": ["mozzarella", "queso azul", "parmesano", "gorgonzola"],
     "name": "cuatro quesos",
-    "price": 8900
+    "price": "8.900"
   },
   {
     "desc": "Una pizza tradicional italiana que combina sabores frescos y auténticos con ingredientes de la mejor calidad.",
@@ -98,6 +98,6 @@
     "img": "/imagenes/caprese.jpg",
     "ingredients": ["mozzarella", "tomates cherry", "albahaca", "pesto"],
     "name": "caprese",
-    "price": 7500
+    "price": "7.500"
   }
 ]

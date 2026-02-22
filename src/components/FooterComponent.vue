@@ -1,7 +1,7 @@
 <template>
 
-    <footer class="footer">
-<div>
+    <footer class="footer" >
+<div >
     <!-- No logré mostrar el ícono de copyright*/ -->
     <i class="fa-regular fa-copyright"></i>
      <p class="text-center">2026-Pizzería de la NONA-Todos los derechos reservados</p>
