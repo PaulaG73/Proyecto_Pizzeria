@@ -1,5 +1,5 @@
 <template>
-    <div class="header">
+    <div class="header" id="header">
 <h1 class="text1">STOP!</h1>
 <h2 class="text2">Aquí está tu pizza!!!</h2>
     </div>

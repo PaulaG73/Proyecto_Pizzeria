@@ -9,7 +9,7 @@
               @click="cerrarModal"
         ></button>
       </div>
-        <PizzaCard 
+        <PizzaCardComponent 
         :pizza="pizza"
         :esModal="true"
       />

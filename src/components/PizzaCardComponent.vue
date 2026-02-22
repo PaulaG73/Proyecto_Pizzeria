@@ -1,7 +1,7 @@
 <template>
     <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
         <div class="card h-100 shadow-sm">
-            <img :src="pizza.img" :alt="pizza.name" class="card-img-top" />
+            <img :src="pizza.img" :alt="pizza.name" class="card-img-top" height="375px"/>
             <div class="card-body d-flex flex-column">
 
                 <span class="badge bg-secondary mb-2 align-self-start">
@@ -53,4 +53,7 @@ defineProps({
 })
 </script>
 
-<style scoped></style>
+<style scoped>
+
+
+</style>
