@@ -1,6 +1,7 @@
 <template>
 <NavBarComponent/>
 <HeaderComponent/>
+
 <PizzaGridComponent :pizzas="pizzas"
   @ver-detalle="verDetalle" />
 

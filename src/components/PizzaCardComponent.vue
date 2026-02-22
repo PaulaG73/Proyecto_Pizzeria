@@ -1,9 +1,9 @@
 <template>
     <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
-        <div class="card h-100 shadow-sm">
+        <div class="card bg-dark h-100 shadow-sm">
 
             <!-- No logré hacer que no se distorsionara la foto. sélo quedaron de un mismo alto en cada carta -->
-            <img :src="pizza.img" :alt="pizza.name" class="card-img-top" height="375px" />
+            <img py-30 :src="pizza.img" :alt="pizza.name" class="card-img" height="375px" />
             <div class="card-body d-flex flex-column">
 
                 <div class="title">
@@ -20,10 +20,10 @@
                     {{ pizza.desc }}
                 </p>
                 <!-- Ingredientes -->
-                <div class="mb-3">
+                <div class="ingredients">
 
                     <h6 class="ingredients-title">Ingredientes:</h6>
-                    <span v-for="(ingrediente, index) in pizza.ingredients" :key="index">
+<span v-for="(ingrediente, index) in pizza.ingredients" :key="index" class="ingredients-array">
 
                         {{ ingrediente }}
 
@@ -41,8 +41,9 @@
                 </div>
 
                 <!-- Botón solo si NO es modal -->
-                <button v-if="!esModal" class="btn btn-primary w-100" @click="detalle(pizza.id)">
-                    <i class="bi bi-eye me-1"></i>
+                <button v-if="!esModal" class="btn btn-dark px-70" 
+                @click="detalle(pizza.id)">
+                    
                     Ver más
                 </button>
             </div>
@@ -75,16 +76,32 @@ defineProps({
 }
 
 .card-title {
+    padding-top: 0px;
     padding-left: 10px;
 }
 
 .card-body {
+  
     padding-left: 0px;
     padding-right: 0px;
+    background-color: #fff;
+    
 }
 
+.card-img{
+    padding: 50px 10px;
+}
 .ingredients-title {
     text-align: center;
+}
+
+.ingredients{
+  display: block;
+}
+.ingredients-array{
+
+font-size: x-small;
+
 }
 .price{
 display: flex;
